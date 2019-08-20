@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
-const PORT = 5000;
+const PORT = 3000;
 
 //To prevent server routing - react-router will handle the routing
 
